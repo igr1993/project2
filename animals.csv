@@ -1,11 +1,11 @@
-assessmentId,commonName,scientificName,redlistCategory,rationale,habitat,threats,population,populationTrend,range,useTrade,systems,conservationActions,realm,possiblyExtinct,possiblyExtinctInTheWild,,LOCATION
-,Giant Panda,Ailuropoda melanoleuca,,,,,,,,,,,,,,,
-,Tiger,Panthera tigris,,,,,,,,,,,,,,,
-,Whooping Crane,Grus americana,,,,,,,,,,,,,,,
-,Blue Whale,Balaenoptera musculus,,,,,,,,,,,,,,,
-,Asian Elephant,Elephas maximus,,,,,,,,,,,,,,,
-,Sea Otter,Enhydra lutris,,,,,,,,,,,,,,,
-,Snow Leopard,Panthera uncia,,,,,,,,,,,,,,,
-,Mountain Gorilla,Gorilla beringei,Endangered,,Forest,,,Increasing,,,Terrestrial,,,,,,
-,Tasmanian Devil,Sarcophilus harrisii,,,,,,,,,,,,,,,
-,Orangutan,Pongo pygmaeus,Critically Endangered,,Forest,,,Decreasing,,,Terrestrial,,,,,,
+commonName,scientificName,currentStatus,location,habitat,largest_threat,population,populationTrend,systems,conservationActions,possiblyExtinct,possiblyExtinctInTheWild,lat,long
+Giant Panda,Ailuropoda melanoleuca,Vulnerable,China,Forest,Agriculture & aquaculture,500-1000,Increasing,Terrestrial,site/area protection,FALSE,FALSE,35.8617,104.1954
+Tiger,Panthera tigris,Regionally Extinct,India,Grassland,Biological resource use,N/A,Unknown,Terrestrial,resource & habitat protection,FALSE,FALSE,20.5937,78.9629
+Whooping Crane,Grus americana,Endangered,US / Canada,Wetlands,Agriculture & aquaculture,50-250,Increasing,Marine,site/area protection,FALSE,FALSE,53.9333,-116.5765
+Blue Whale,Balaenoptera musculus,Endangered,Oceania,Marine,Climate change & severe weather,5k - 15k,Increasing,Marine,In-place education,FALSE,FALSE,14.5994,-28.6731
+Asian Elephant,Elephas maximus,Endangered,Indonesia,Grassland,Residential & Commercial development,N/A,Decreasing,Terrestrial,site/area protection,FALSE,FALSE,2.218,115.6628
+Sea Otter,Enhydra lutris,Endangered,US / Canada,Marine,Biological resource use,N/A,Decreasing,Marine,Habitat & natural process restoration,FALSE,FALSE,57,-144
+Snow Leopard,Panthera uncia,Vulnerable,Tibet,Grassland,Agriculture & aquaculture,2k - 3k,Decreasing,Terrestrial,resource & habitat protection,FALSE,FALSE,30.15,88.78
+Mountain Gorilla,Gorilla beringei,Endangered,Africa,Forest,Energy production & mining,600,Increasing,Terrestrial,site/area protection,FALSE,FALSE,5.9175,12.5484
+Tasmanian Devil,Sarcophilus harrisii,Endangered,Tasmania,Grassland,Biological resource use,N/A,Decreasing,Terrestrial,Species recovery,FALSE,FALSE,-42.0409,146.8087
+Orangutan,Pongo pygmaeus,Critically Endangered,Malaysia,Forest,Agriculture & aquaculture,N/A,Decreasing,Terrestrial,site/area protection,FALSE,FALSE,4.2105,101.9758

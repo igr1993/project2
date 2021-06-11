@@ -1,12 +1,59 @@
-/* remove default margin and padding from body */
-body {
-  padding: 0;
-  margin: 0;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: hsl(189, 77%, 83%);
+}
+#map {
+  position: absolute;
+  bottom: 0%;
+  top: 35%;
+  width: 50%;
 }
 
-/* set map, body, and html to 100% of the screen size */
-#map,
-body,
-html {
-  height: 100%;
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2957b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 999; 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1ee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(221, 221, 221)}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
